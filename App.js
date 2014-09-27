@@ -1,7 +1,6 @@
 Ext.define('CustomApp', {
     extend: 'Rally.app.App',
     componentCls: 'app',
-    items:{ 
     launch: function() {
         var myStore = Ext.create('Rally.data.wsapi.Store', {
             model: 'User Story',
